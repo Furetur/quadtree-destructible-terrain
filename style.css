@@ -8,6 +8,10 @@ header {
   text-align: center;
 }
 
+#github {
+  margin-bottom: 30px;
+}
+
 main {
   margin-bottom: 40px;
 }
