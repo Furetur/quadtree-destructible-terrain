@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Quadtree</title>
+</head>
+<body>
+  <header>
+    <h1>Quadtree Destructible Terrain Demo</h1>
+    <p>This looks a lot like <a href="https://prajogotio.github.io/DestructibleTerrainDemo/destructibleterrain.html">prajogotio's version</a> but with circles. The intend is to use it later in a worms-like game</p>
+    <p>Click to draw a circle</p>
+  </header>
+  <main>
+    <canvas id="terrain"></canvas>
+  </main>
+  
+  <aside>
+    <h2>Bonuses</h2>
+    <label>
+      <span>Minimal Side Length:</span>
+      <input type="number" id="side-length" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" id="debug-lines">
+      <span>Debug</span>
+    </label>
+    <label>
+        <input type="radio" id="comic-sans">
+        <span>Comic Sans Mode</span>
+    </label>
+  </aside>
+
+  <script src="index.ts"></script>
+</body>
+</html>

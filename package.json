@@ -1,0 +1,19 @@
+{
+  "name": "quadtree-terrain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "rambda": "^2.1.1"
+  }
+}

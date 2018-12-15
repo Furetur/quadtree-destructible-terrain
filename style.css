@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  margin-bottom: 40px;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+}
+
+aside {
+  text-align: center;
+}
+
+label {
+  width: fit-content;
+  display: block;
+  margin: auto;
+}
+
+.sans {
+  font-family: 'Comic Sans MS';
+}
